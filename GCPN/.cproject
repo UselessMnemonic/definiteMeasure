@@ -3,6 +3,34 @@
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="0.1756033715">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.1756033715" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<macros>
+					<stringListMacro name="Path" type="VALUE_TEXT_LIST">
+						<value name="C:/Program Files/Java/jre1.8.0_77/bin/server"/>
+						<value name="C:/Program Files/Java/jre1.8.0_77/bin"/>
+						<value name="C:/Program Files/Java/jre1.8.0_77/lib/amd64"/>
+						<value name="C:\devkitPro"/>
+						<value name="C:\ProgramData\Oracle\Java\javapath"/>
+						<value name="C:\Program Files (x86)\Intel\iCLS Client\"/>
+						<value name="C:\Program Files\Intel\iCLS Client\"/>
+						<value name="C:\WINDOWS\system32"/>
+						<value name="C:\WINDOWS"/>
+						<value name="C:\WINDOWS\System32\Wbem"/>
+						<value name="C:\WINDOWS\System32\WindowsPowerShell\v1.0\"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\QuickTime\QTSystem\"/>
+						<value name="C:\Program Files\Intel\WiFi\bin\"/>
+						<value name="C:\Program Files\Common Files\Intel\WirelessCommon\"/>
+						<value name="C:\Program Files (x86)\Wiimm\WIT"/>
+						<value name="C:\Program Files (x86)\Skype\Phone\"/>
+						<value name="C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\"/>
+						<value name="C:\Users\chris\.dnx\bin"/>
+						<value name="C:\Program Files\Microsoft DNX\Dnvm\"/>
+						<value name="C:\Users\chris\eclipse\java-mars\eclipse"/>
+					</stringListMacro>
+				</macros>
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -92,9 +120,10 @@
 			<resource resourceType="PROJECT" workspacePath="/GCPN"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
 		<buildTargets>
-			<target name="build" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+			<target name="make" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>make</buildCommand>
 				<buildArguments/>
 				<buildTarget/>
@@ -102,23 +131,6 @@
 				<useDefaultCommand>true</useDefaultCommand>
 				<runAllBuilders>true</runAllBuilders>
 			</target>
-			<target name="clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>make</buildCommand>
-				<buildArguments/>
-				<buildTarget>clean</buildTarget>
-				<stopOnError>true</stopOnError>
-				<useDefaultCommand>true</useDefaultCommand>
-				<runAllBuilders>true</runAllBuilders>
-			</target>
-			<target name="run" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>make</buildCommand>
-				<buildArguments/>
-				<buildTarget>run</buildTarget>
-				<stopOnError>true</stopOnError>
-				<useDefaultCommand>true</useDefaultCommand>
-				<runAllBuilders>true</runAllBuilders>
-			</target>
 		</buildTargets>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

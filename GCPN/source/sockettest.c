@@ -50,7 +50,7 @@ int main(int argc, char **argv) {
 	// Configure the network interface
 	ret = if_config ( localip, netmask, gateway, TRUE);
 	if (ret>=0) {
-		printf ("\nnetwork configured, ip: %s, gw: %s, mask: %s, port: 15\n", localip, gateway, netmask);
+		printf ("\network configured, ip: %s, gw: %s, mask: %s, port: 15\n", localip, gateway, netmask);
 
 		LWP_CreateThread(	&httd_handle,	/* thread handle */ 
 							httpd,			/* code */ 
